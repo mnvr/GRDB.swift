@@ -1,4 +1,4 @@
-#if canImport(Combine)
+#if false
 import Combine
 #endif
 import Dispatch
@@ -259,7 +259,7 @@ extension DatabaseReader {
     }
 }
 
-#if canImport(Combine)
+#if false
 extension DatabaseReader {
     // MARK: - Publishing Database Values
     

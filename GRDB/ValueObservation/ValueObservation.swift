@@ -1,4 +1,4 @@
-#if canImport(Combine)
+#if false
 import Combine
 #endif
 import Dispatch
@@ -211,7 +211,7 @@ extension ValueObservation: Refinable {
     }
 }
 
-#if canImport(Combine)
+#if false
 extension ValueObservation {
     // MARK: - Publishing Observed Values
     

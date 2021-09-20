@@ -1,4 +1,4 @@
-#if canImport(Combine)
+#if false
 import Combine
 #endif
 import Foundation
@@ -99,7 +99,7 @@ extension DatabaseRegionObservation {
     }
 }
 
-#if canImport(Combine)
+#if false
 @available(OSX 10.15, iOS 13, tvOS 13, watchOS 6, *)
 extension DatabaseRegionObservation {
     // MARK: - Publishing Impactful Transactions
@@ -150,7 +150,7 @@ private class DatabaseRegionObserver: TransactionObserver {
     }
 }
 
-#if canImport(Combine)
+#if false
 @available(OSX 10.15, iOS 13, tvOS 13, watchOS 6, *)
 extension DatabasePublishers {
     /// A publisher that tracks changes in a database region.

@@ -1,4 +1,4 @@
-#if canImport(Combine)
+#if false
 import XCTest
 
 @available(OSX 10.15, iOS 13, tvOS 13, watchOS 6, *)

@@ -1,4 +1,4 @@
-#if canImport(Combine)
+#if false
 import Foundation
 
 /// An error that may be thrown when waiting for publisher expectations.
